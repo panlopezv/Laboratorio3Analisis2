@@ -6,6 +6,7 @@
 package laboratorio3;
 
 import invocador.Boton;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -13,16 +14,17 @@ import java.util.List;
  * @author EST1522712
  */
 public class Control {
-    private List<Boton> botones;
+    private ArrayList<Boton> botones;
 
     public Control() {
+        botones = new ArrayList<>();
     }
 
-    public List<Boton> getBotones() {
+    public ArrayList<Boton> getBotones() {
         return botones;
     }
 
-    public void setBotones(List<Boton> botones) {
+    public void setBotones(ArrayList<Boton> botones) {
         this.botones = botones;
     }
     

@@ -9,13 +9,14 @@ package laboratorio3;
  *
  * @author EST1629311
  */
-public class Laboratorio3 {
+public class Principal {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Control c = new Control();
     }
     
 }
