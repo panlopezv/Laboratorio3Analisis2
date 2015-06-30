@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package laboratorio3.Receptor;
+package receptor;
 
 /**
  *
  * @author EST1522712
  */
-public interface Leds {
+public interface Led {
     public void encender();
-    public void Apagar();
+    public void apagar();
     
     
 }

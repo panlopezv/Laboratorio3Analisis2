@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package laboratorio3.Receptor;
+package receptor;
 
 /**
  *
  * @author EST1522712
  */
-public class Led2 implements Leds{
+public class Led1 implements Led{
 
     @Override
     public void encender() {
@@ -17,7 +17,7 @@ public class Led2 implements Leds{
     }
 
     @Override
-    public void Apagar() {
+    public void apagar() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     

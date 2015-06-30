@@ -5,15 +5,26 @@
  */
 package comando;
 
+import receptor.Led;
+
 /**
  *
  * @author EST1629311
  */
 public class Comando_ON_L3 implements Comando {
+    private Led led;    
+
+    public Led getLed() {
+        return led;
+    }
+
+    public void setLed(Led led) {
+        this.led = led;
+    }
+    
 
     @Override
     public void ejecutar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        led.encender();
     }
-    
 }
