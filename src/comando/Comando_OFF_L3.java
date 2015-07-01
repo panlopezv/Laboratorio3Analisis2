@@ -12,7 +12,12 @@ import receptor.Led;
  * @author EST1629311
  */
 public class Comando_OFF_L3  implements Comando {
-    private Led led;    
+    private Led led;        
+
+    public Comando_OFF_L3(Led led) {
+        this.led = led;
+    }
+
 
     public Led getLed() {
         return led;

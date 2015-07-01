@@ -5,6 +5,8 @@
  */
 package receptor;
 
+import laboratorio3.Principal;
+
 /**
  *
  * @author EST1522712
@@ -13,12 +15,12 @@ public class Led2 implements Led{
 
     @Override
     public void encender() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        Principal.led2=Boolean.TRUE;
     }
 
     @Override
     public void apagar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        Principal.led2=Boolean.FALSE;
     }
     
 }

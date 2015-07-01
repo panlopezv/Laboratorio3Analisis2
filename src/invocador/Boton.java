@@ -13,8 +13,14 @@ import comando.Comando;
  */
 public class Boton {
     private Comando co;
-
+    private int numero;
+    
     public Boton() {
+    }
+
+    public Boton(Comando co, int numero) {
+        this.co=co;
+        this.numero=numero;
     }
     
         public Comando getCo() {

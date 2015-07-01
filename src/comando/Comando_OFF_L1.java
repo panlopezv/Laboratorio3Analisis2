@@ -14,6 +14,10 @@ import receptor.Led;
 public class Comando_OFF_L1 implements Comando {
     private Led led;    
 
+    public Comando_OFF_L1(Led led) {
+        this.led = led;
+    }
+
     public Led getLed() {
         return led;
     }
